@@ -43,7 +43,7 @@ The system enables **barcode scanning**, stage validation, and **Google Sheets i
 
 This project includes a `GoogleAppScript.gs` file for logging scanned barcodes to **Google Sheets**.
 
-### 📄 How it Works
+###  How it Works
 
 - The ESP32 sends a `POST` request with the barcode (`data`), the direction (`out`), and current stage (`stage`)
 - The Apps Script:
@@ -51,7 +51,7 @@ This project includes a `GoogleAppScript.gs` file for logging scanned barcodes t
   - Determines which sheet to log to (e.g., `Stage1_in`, `Stage1_out`, etc.)
   - Appends the record with timestamp
 
-### 🔗 Google Sheets Setup
+###  Google Sheets Setup
 
 1. Create a Google Sheet with the following tabs:
    - `Stage1_in`, `Stage1_out`
